@@ -20,17 +20,36 @@ export class SelectApp extends React.Component {
       case 'siftr':
         return <SiftrNative
           viola={true}
-          species_id={this.state.species_id}
           backToViola={() => this.setState({app: null})}
+          siftr_id={6234}
+          getViolaInfo={() => {
+            const info = {
+              nomen_id: this.state.nomen_id,
+              species_id: this.state.species_id,
+              saved_note: this.state.saved_note,
+            };
+            this.setState({
+              nomen_id: null,
+              species_id: null,
+              saved_note: null,
+            });
+            return info;
+          }}
+          onViolaIdentify={(saved_note) => {
+            this.setState({
+              app: 'nomen',
+              saved_note: saved_note,
+            });
+          }}
         />;
       case 'nomen':
         return <HomeScreen
           viola={true}
           backToViola={() => this.setState({app: null})}
           onViolaCollect={({nomen_id, species_id}) => {
-            // TODO pass species_id to siftr
             this.setState({
               app: 'siftr',
+              nomen_id: nomen_id,
               species_id: species_id,
             });
           }}
