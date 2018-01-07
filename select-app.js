@@ -21,7 +21,7 @@ export class SelectApp extends React.Component {
         return <SiftrNative
           viola={true}
           backToViola={() => this.setState({app: null})}
-          siftr_id={6234}
+          siftr_id={30765}
           getViolaInfo={() => {
             const info = {
               nomen_id: this.state.nomen_id,
@@ -58,10 +58,10 @@ export class SelectApp extends React.Component {
         return (
           <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
             <TouchableOpacity onPress={() => this.setState({app: 'siftr'})}>
-              <Text>Siftr</Text>
+              <Text style={{fontSize: 20, marginBottom: 50}}>Siftr</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => this.setState({app: 'nomen'})}>
-              <Text>Nomen</Text>
+              <Text style={{fontSize: 20}}>Nomen</Text>
             </TouchableOpacity>
           </View>
         );

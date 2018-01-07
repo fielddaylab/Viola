@@ -1420,7 +1420,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.siftr.client;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fielddaylab.viola;
 				PRODUCT_NAME = SiftrNative;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1449,7 +1449,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.siftr.client;
+				PRODUCT_BUNDLE_IDENTIFIER = org.fielddaylab.viola;
 				PRODUCT_NAME = SiftrNative;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

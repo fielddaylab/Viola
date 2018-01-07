@@ -94,11 +94,11 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "org.siftr.client"
+        applicationId "org.fielddaylab.viola"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 4
-        versionName "1.0.2"
+        versionCode 15
+        versionName "1.1.1"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
