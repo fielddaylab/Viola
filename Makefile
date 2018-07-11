@@ -10,4 +10,5 @@ default:
 	rm -rf nomen/*
 	cp -R ../NomenNative/src nomen/
 	cp -R ../NomenNative/plants nomen/
+	cp -R ../NomenNative/plants-new nomen/
 	cp -R ../NomenNative/img nomen/
