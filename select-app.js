@@ -56,7 +56,7 @@ export class SelectApp extends React.Component {
         return <SiftrNative
           viola={true}
           backToViola={() => this.setState({app: null})}
-          siftr_id={30765}
+          siftr_id={32665}
           getViolaInfo={() => {
             const info = {
               nomen_id: this.state.nomen_id,
