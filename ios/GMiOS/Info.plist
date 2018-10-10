@@ -17,13 +17,11 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.6</string>
+	<string>1.2.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>CFBundleURLTypes</key>
-	<array/>
 	<key>CFBundleVersion</key>
-	<string>20</string>
+	<string>21</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>
@@ -45,23 +43,23 @@
 		</dict>
 	</dict>
 	<key>NSAppleMusicUsageDescription</key>
-	<string>This permission is not used by Siftr.</string>
+	<string>This permission is not used by Viola.</string>
 	<key>NSBluetoothPeripheralUsageDescription</key>
-	<string>This permission is not used by Siftr.</string>
+	<string>This permission is not used by Viola.</string>
 	<key>NSCalendarsUsageDescription</key>
-	<string>This permission is not used by Siftr.</string>
+	<string>This permission is not used by Viola.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Allows Siftr to take photos.</string>
+	<string>Allows you to take photos to upload to a Viola project.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allows Siftr to show where you are on the map.</string>
+	<string>Allows Viola to show where you are on the map.</string>
 	<key>NSMotionUsageDescription</key>
-	<string>This permission is not used by Siftr.</string>
+	<string>This permission is not used by Viola.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Save your Siftr photos to the camera roll.</string>
+	<string>Allows you to save your Viola photos to the camera roll.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Upload your photos to Siftr.</string>
+	<string>Allows you upload photos from your device to a Viola project.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>This permission is not used by Siftr.</string>
+	<string>This permission is not used by Viola.</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
