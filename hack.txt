@@ -1,0 +1,19 @@
+Current Viola Siftr code is a pre-fields-transition version with the following login function in aris.js:
+
+  login(username, password, cb = function() {}) {
+    return this.call(
+      "users.logIn",
+      {
+        user_name: username,
+        password: password,
+        permission: "read_write",
+        // siftr_version: 20180925,
+        viola_version: 20190319,
+      },
+      obj => {
+        return this.useLoginResult(obj, true, cb);
+      }
+    );
+  }
+
+Also "tracksViewChanges={false}" added to both MapView.Marker elements in map.js
