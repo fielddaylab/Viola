@@ -2,7 +2,6 @@
 
 default:
 	yarn
-	cd ../SiftrNative && make
 	cd ../NomenNative && make
 	rm -rf siftr/*
 	cp -R ../SiftrNative/src-native siftr/
