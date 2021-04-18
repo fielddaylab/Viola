@@ -46,4 +46,4 @@ Tech notes:
 
 * The separate repo folders should probably be turned into submodules within this repo, or just have their contents copied in.
 
-* To rebuild the images from the source folder, download it from Google Drive, go into `NomenNative/plants-new`, edit `build.rb` to have the right `drive` location, then run `build.rb` (requires Ruby).
+* To rebuild the images from the source folder, download it from Google Drive, go into `NomenNative/plants-new`, edit `build.rb` to have the right `drive` location, then run `build.rb` (requires Ruby and ImageMagick).
